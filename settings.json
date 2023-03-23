@@ -1,0 +1,56 @@
+{
+    "files.simpleDialog.enable": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.rulers": [
+        88
+    ],
+    "editor.fontSize": 13.3,
+    "workbench.activityBar.visible": false,
+    "editor.folding": false,
+    "python.formatting.yapfPath": "/home/nvaytet/software/miniconda3/bin/yapf",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "yapf",
+    "problems.decorations.enabled": false,
+    "editor.glyphMargin": false,
+    "workbench.colorTheme": "Monokai",
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "fontStyle": ""
+        },
+        "[Monokai]": {
+            "textMateRules": [
+                {
+                    "name": "Class name",
+                    "scope": [
+                        "entity.name.type.class",
+                        "entity.name.type.cpp",
+                        "entity.name.type.parameter.cpp",
+                        "entity.name.scope-resolution.cpp",
+                        "entity.name.scope-resolution.template.call.cpp",
+                        "entity.name.scope-resolution.function.call.cpp",
+                        "entity.name.namespace",
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    },
+    "editor.scrollbar.vertical": "hidden",
+    "editor.wordWrap": "on",
+    "json.format.enable": false,
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.tcc": "cpp"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.renderWhitespace": "trailing",
+    "files.trimTrailingWhitespace": true,
+}
